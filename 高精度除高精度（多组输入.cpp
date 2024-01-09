@@ -59,6 +59,7 @@ void solve()
 //		cout<<"余";
 //		for(i=len_a;i>=0;i--) cout<<a[i];
 //	} 
+	cout<<endl;
 }
 int main()
 {
