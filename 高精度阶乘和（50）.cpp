@@ -8,7 +8,10 @@ int len=1,t[10001],ans[10001],anslen,n;
 void cheng(int v)
 {
     for(int i=1;i<=len;i++)
-    t[i]*=v;
+    {
+    	t[i]*=v;
+	}
+    
     int i=1;
     while(t[i]>9||i<len)
     {
